@@ -403,12 +403,13 @@ PRODUCT_PACKAGES += \
     libxml2 \
     libprotobuf-cpp-full
 
+# Telephony
 PRODUCT_PACKAGES += \
-    ims-ext-common \
-    telephony-ext
+    qti-telephony-common
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
+
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
